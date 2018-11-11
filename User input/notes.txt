@@ -1,0 +1,8 @@
+To take input from user, there are 2 ways:
+1. Process.argv
+	This just provides an array of cmd arguments and can be accessed using offset as in an array
+	the problem is when the number of variables is increased, this causes a problem as offset is not fixed. Also depending on user config of node, offset might change
+
+2. Using yargs
+	Provides key-value pairs of arguments. 
+	Flags (--x) can be used to create key and = after flag will add value to the key.
