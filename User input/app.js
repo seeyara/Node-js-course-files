@@ -13,17 +13,21 @@ var command=processArgs[2];
 
 
 if(command==='add'){
+
 	notes.addNotes(argv.title , argv.body);
 }
 
 else if (command==='list'){
+
 	notes.listNotes();
 }
 
 else if (command==='read'){
+
 	notes.readNotes(argv.title);
 }
 else if (command === 'remove'){
+	
 	notes.removeNotes(argv.title);
 }
 
