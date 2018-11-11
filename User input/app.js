@@ -26,6 +26,7 @@ else if (command==='read'){
 else if (command === 'remove'){
 	notes.removeNotes(argv.title);
 }
+
 else{
 	console.log("Command not found");
 }
