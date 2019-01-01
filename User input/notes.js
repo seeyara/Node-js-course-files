@@ -15,7 +15,6 @@ function readNotes(title){
 function removeNotes(){
 	console.log('Removing notes for ' ,title);
 };
-
 module.exports={
 	addNotes,
 	listNotes, 
